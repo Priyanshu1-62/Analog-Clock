@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#clock {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: aqua;
+    background: url("clock\ without\ hands.jpg") no-repeat;
+    background-size: 100%;
+}
+#hr, #min, #sec {
+    position: absolute;
+    border-radius: 10px;
+}
+#hr {
+    background-color: #181C14;
+    height: 25.5%;
+    width: 2%;
+    top: 25%;
+    left: 49.89%;
+    transform-origin: bottom;
+}
+#min {
+    background-color: #A04747;
+    height: 32.5%;
+    width: 1.6%;
+    top: 18%;
+    left: 50.09%;
+    transform-origin: bottom;
+}
+#sec {
+    background-color: #697565;
+    height: 40%;
+    width: 1.1%;
+    top: 10.5%;
+    left: 50.3%;
+    transform-origin: bottom;
+}
